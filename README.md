@@ -1,0 +1,1 @@
+This a cover page website built with pure Html and Css. Javascript was used to create the collasped button to make the header responsive. The web app is very responsive. The web page follows the convention of css structure, desktop first then mobile 
