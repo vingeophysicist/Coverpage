@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<ul class="topnav" id="dropdownClick">
+     <li><a href="#home">Home</a></li>
+     <li><a href="#News">News</a></li>
+     <li><a href="#contact">Contact</a></li>
+     <li><a href="#about">About</a></li>
+     <li class="topnav-right"><a href="#signup">sign Up</a></li>
+     <li class="topnav-right"><a href="#signin">sign In</a></li>
+     <li class="dropdownIcon" onclick="dropdownMenu()"><a href="javascript:void(0);">&#9776;</a></li>
+
+</ul>
+</nav>
+
+<div class="container" id="section-1-gradient">
+   <div class="row">
+     <div class="col-6 ">
+     <div class="leftsidecol">
+     
+       <h1 class="large">Crazy Coders</h1>
+       <h1 class="large">Made by developers</h1>
+     </div>
+     <form action="">
+       <div class="leftsidecol">
+        <h2>username</h2>
+        <input class="inputbox" type="text" placeholder="Username" name="username">
+        <h2>password</h2>
+        <input class="inputbox" type="text" name="password" placeholder="password" >
+       </div>
+     
+     </form>
+     </div>
+     <div class="col-6">
+     <div class="rightSide-col">
+     <div class="videoContainer">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DVRQoVRzMIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+     </div>
+
+     </div>
+   </div>
+
+
+</div>
+
+<header>
+<h1 class="section2Header">The standards of Coders </h1>
+</header>
+
+<div class="container">
+<div class="row">
+<div class="col-4">
+    <div class="box">
+    <div class="icon">
+     <img src="youtube.png" alt="">
+    </div>
+    <label for="">Chat with me</label>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </p>
+    </div>
+</div>
+<div class="col-4">
+    <div class="box">
+    <div class="icon">
+     <img src="youtube.png" alt="">
+    </div>
+    <label for="">Learn to code</label>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </p>
+    </div>
+</div>
+<div class="col-4">
+    <div class="box">
+    <div class="icon">
+     <img src="youtube.png" alt="">
+    </div>
+    <label for="">Build a formidable app</label>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </p>
+    </div>
+</div>
+</div>
+<div class ="row">
+<div class="col-12">
+ <button class="learnMore">Learn more </button>
+</div>
+</div>
+</div>
+<hr>
+<div class="container">
+<div class="row">
+<div class="col-7">
+ <article>
+ <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ </p>
+ </article>
+</div>
+<div class ="col-5">
+<div class="slopIcon">
+ <img src="logo3.png" alt="">
+</div>
+</div>
+
+</div>
+</div>
+<footer  class = "footsy">
+<div class="row">
+<div class="col-3 mobileStack">
+  <h1>Company</h1>
+  <ul>
+  <li>About</li>
+  <li>Blogs</li>
+  <li>Career</li>
+  </ul>
+</div>
+<div class="col-3 mobileStack">
+  <h1>Company</h1>
+  <ul>
+  <li>About</li>
+  <li>Blogs</li>
+  <li>Career</li>
+  </ul>
+</div>
+<div class="col-3 mobileStack">
+  <h1>Company</h1>
+  <ul>
+  <li>About</li>
+  <li>Blogs</li>
+  <li>Career</li>
+  </ul>
+</div>
+<div class="col-3 mobileStack">
+  <h1>Company</h1>
+  <ul>
+  <li>About</li>
+  <li>Blogs</li>
+  <li>Career</li>
+  </ul>
+</div>
+</div>
+</footer>
+
+
+
+
+
+<script>
+function dropdownMenu(){
+var x  = document.getElementById("dropdownClick");
+if(x.className === "topnav"){
+    x.className += " responsive";
+}else{
+    x.className = "topnav";
+}
+}
+</script>
+
+    
+</body>
+</html>
